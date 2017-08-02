@@ -4,7 +4,7 @@ void setup() {
   xPosition=100 ;
   
 }
-
+//Tried to make concentric circles spread out edge to edge when moused over, but kept getting "Missing Semi Colon Error"// 
 void draw() {
 fill(0);
 if(mouseX<=160){xPosition=800} else{xPosition=100} ;
